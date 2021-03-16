@@ -2,7 +2,7 @@
 //  firstView.swift
 //  Swiftomatic
 //
-//  Created by vincent schmitt on 16/03/2021.
+//  Created by yoko on 16/03/2021.
 //
 
 import SwiftUI
