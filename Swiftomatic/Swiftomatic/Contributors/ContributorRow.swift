@@ -8,15 +8,18 @@
 import SwiftUI
 
 struct ContributorRow: View {
+    var contributor: Contributor
+    
     var body: some View {
         HStack {
-            
+            Image(contributor.photo)
+            Text(contributor.name)
         }
     }
 }
 
 struct ContributorRow_Previews: PreviewProvider {
     static var previews: some View {
-        ContributorRawView()
+        ContributorRow( contributor: Contributor.listContributor[0])
     }
 }

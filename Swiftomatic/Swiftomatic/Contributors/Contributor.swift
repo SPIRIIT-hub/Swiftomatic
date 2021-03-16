@@ -11,7 +11,7 @@ import SwiftUI
 struct Contributor {
     
     let photo: String
-    let nom: String
+    let name: String
     let biographie: String
     let contributions: [String]
     
