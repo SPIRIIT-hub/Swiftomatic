@@ -13,6 +13,8 @@ struct ContentView: View {
             .padding()
         Text("Mounir")
             .padding()
+        Text("Djiar")
+            .padding()
         
     }
 }
