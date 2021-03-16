@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565279652600FDBA00D3AFD3 /* ContributorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565279642600FDBA00D3AFD3 /* ContributorsView.swift */; };
 		76BA04C52600EE8B0098676B /* SwiftomaticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA04C42600EE8B0098676B /* SwiftomaticApp.swift */; };
 		76BA04C72600EE8B0098676B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA04C62600EE8B0098676B /* ContentView.swift */; };
 		76BA04C92600EE8D0098676B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BA04C82600EE8D0098676B /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		565279642600FDBA00D3AFD3 /* ContributorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorsView.swift; sourceTree = "<group>"; };
 		76BA04C12600EE8B0098676B /* Swiftomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BA04C42600EE8B0098676B /* SwiftomaticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticApp.swift; sourceTree = "<group>"; };
 		76BA04C62600EE8B0098676B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		565279682600FDCE00D3AFD3 /* Contributors */ = {
+			isa = PBXGroup;
+			children = (
+				565279642600FDBA00D3AFD3 /* ContributorsView.swift */,
+			);
+			path = Contributors;
+			sourceTree = "<group>";
+		};
 		76BA04B82600EE8B0098676B = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 				76BA04C82600EE8D0098676B /* Assets.xcassets */,
 				76BA04CD2600EE8D0098676B /* Info.plist */,
 				76BA04CA2600EE8D0098676B /* Preview Content */,
+				565279682600FDCE00D3AFD3 /* Contributors */,
 			);
 			path = Swiftomatic;
 			sourceTree = "<group>";
@@ -140,6 +151,7 @@
 			files = (
 				76BA04C72600EE8B0098676B /* ContentView.swift in Sources */,
 				76BA04C52600EE8B0098676B /* SwiftomaticApp.swift in Sources */,
+				565279652600FDBA00D3AFD3 /* ContributorsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
