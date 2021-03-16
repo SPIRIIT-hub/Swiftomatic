@@ -13,8 +13,11 @@ struct ContributorRow: View {
     var body: some View {
         HStack {
             Image(contributor.photo)
+                .resizable()
+                .frame(maxWidth: 100)
             Text(contributor.name)
         }
+        .frame(maxHeight: 100)
     }
 }
 

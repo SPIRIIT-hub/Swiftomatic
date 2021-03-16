@@ -8,8 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct Contributor {
+struct Contributor: Identifiable {
     
+    let id = UUID()
     let photo: String
     let name: String
     let biographie: String
