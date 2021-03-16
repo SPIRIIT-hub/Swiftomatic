@@ -11,9 +11,8 @@ struct BooksView: View {
     var body: some View {
         
         NavigationView {
-            List {
-                ForEach(Book.books) { book in
-                    NavigationLink (
+            List(Book.books) { book in
+                NavigationLink (
                         destination: BookDetailView(book: book),
                         label: {
                             VStack (alignment: .leading) {
@@ -26,10 +25,9 @@ struct BooksView: View {
                             }
                         }
                     )
-                }
-                
             }
-            .navigationTitle("Livres iOS / Swift")
+           .navigationTitle("Livres iOS / Swift")
+
         }
     }
 }
