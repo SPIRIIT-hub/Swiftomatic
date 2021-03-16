@@ -58,8 +58,7 @@
 		76BA04C32600EE8B0098676B /* Swiftomatic */ = {
 			isa = PBXGroup;
 			children = (
-				B59FA8F32600F9520039C65A /* ViewModel */,
-				B59FA8F22600F94A0039C65A /* View */,
+				B59FA90D260110920039C65A /* FrameWork */,
 				76BA04C42600EE8B0098676B /* SwiftomaticApp.swift */,
 				76BA04C62600EE8B0098676B /* ContentView.swift */,
 				76BA04C82600EE8D0098676B /* Assets.xcassets */,
@@ -92,6 +91,15 @@
 				B59FA8FF260102CC0039C65A /* dummiData.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B59FA90D260110920039C65A /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				B59FA8F32600F9520039C65A /* ViewModel */,
+				B59FA8F22600F94A0039C65A /* View */,
+			);
+			path = FrameWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
