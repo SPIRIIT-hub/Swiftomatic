@@ -27,7 +27,6 @@ struct BooksView: View {
                     )
             }
            .navigationTitle("Livres iOS / Swift")
-
         }
     }
 }
