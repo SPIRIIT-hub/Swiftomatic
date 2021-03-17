@@ -11,6 +11,9 @@
 		76BA04C72600EE8B0098676B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA04C62600EE8B0098676B /* ContentView.swift */; };
 		76BA04C92600EE8D0098676B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BA04C82600EE8D0098676B /* Assets.xcassets */; };
 		76BA04CC2600EE8D0098676B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BA04CB2600EE8D0098676B /* Preview Assets.xcassets */; };
+		7DC3FA54260201EC00219AE2 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC3FA51260201EC00219AE2 /* BooksView.swift */; };
+		7DC3FA55260201EC00219AE2 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC3FA52260201EC00219AE2 /* Book.swift */; };
+		7DC3FA56260201EC00219AE2 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC3FA53260201EC00219AE2 /* BookDetailView.swift */; };
 		B59FA8FA2600F9C80039C65A /* frameworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FA8F92600F9C80039C65A /* frameworksView.swift */; };
 		B59FA8FD2600FDF80039C65A /* detailListFrameW.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FA8FC2600FDF80039C65A /* detailListFrameW.swift */; };
 		B59FA900260102CC0039C65A /* dummiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FA8FF260102CC0039C65A /* dummiData.swift */; };
@@ -23,6 +26,9 @@
 		76BA04C82600EE8D0098676B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76BA04CB2600EE8D0098676B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76BA04CD2600EE8D0098676B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC3FA51260201EC00219AE2 /* BooksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BooksView.swift; path = Book/BooksView.swift; sourceTree = "<group>"; };
+		7DC3FA52260201EC00219AE2 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = Book/Book.swift; sourceTree = "<group>"; };
+		7DC3FA53260201EC00219AE2 /* BookDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookDetailView.swift; path = Book/BookDetailView.swift; sourceTree = "<group>"; };
 		B59FA8F92600F9C80039C65A /* frameworksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frameworksView.swift; sourceTree = "<group>"; };
 		B59FA8FC2600FDF80039C65A /* detailListFrameW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailListFrameW.swift; sourceTree = "<group>"; };
 		B59FA8FF260102CC0039C65A /* dummiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummiData.swift; sourceTree = "<group>"; };
@@ -58,10 +64,12 @@
 		76BA04C32600EE8B0098676B /* Swiftomatic */ = {
 			isa = PBXGroup;
 			children = (
+				7DC3FA52260201EC00219AE2 /* Book.swift */,
+				7DC3FA53260201EC00219AE2 /* BookDetailView.swift */,
+				7DC3FA51260201EC00219AE2 /* BooksView.swift */,
 				B59FA90D260110920039C65A /* FrameWork */,
 				76BA04C42600EE8B0098676B /* SwiftomaticApp.swift */,
 				76BA04C62600EE8B0098676B /* ContentView.swift */,
-				7D67ACEB2601109800399E7D /* Book */,
 				76BA04C82600EE8D0098676B /* Assets.xcassets */,
 				76BA04CD2600EE8D0098676B /* Info.plist */,
 				76BA04CA2600EE8D0098676B /* Preview Content */,
@@ -172,9 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D67ACE52600FB7400399E7D /* Book.swift in Sources */,
-				7D67ACE8260102D100399E7D /* BookDetailView.swift in Sources */,
+				7DC3FA56260201EC00219AE2 /* BookDetailView.swift in Sources */,
 				76BA04C72600EE8B0098676B /* ContentView.swift in Sources */,
+				7DC3FA54260201EC00219AE2 /* BooksView.swift in Sources */,
+				7DC3FA55260201EC00219AE2 /* Book.swift in Sources */,
 				B59FA900260102CC0039C65A /* dummiData.swift in Sources */,
 				B59FA8FA2600F9C80039C65A /* frameworksView.swift in Sources */,
 				B59FA8FD2600FDF80039C65A /* detailListFrameW.swift in Sources */,
